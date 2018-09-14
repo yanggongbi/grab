@@ -9,7 +9,7 @@ Wordpress (along with wp-cli) and Sensu monitoring platform in Docker
 ## Installation
 
 ```
-git clone git@github.com:
+git clone https://github.com/yanggongbi/grab.git
 ```
 
 ## Run

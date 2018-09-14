@@ -43,3 +43,8 @@ The default user/pass are admin:admin.
 * `http://your-server:4567/`
 
 The default user/pass are admin:admin.
+
+### known issues
+
+* i do not have enough time to finish the whole monitoring stuff, the original plan was to startup a sensu client (with docker or not) and install the plugins.
+* encountered some problems when do _docker exec_ against sensu server container in the shell script, i did some ugly fix in _start-uchiwa.sh_ but it does not do the trick, sometimes a `docker exec sensu-server /etc/init.d/uchiwa restart` is needed.
